@@ -32,10 +32,16 @@ const CheckoutPage = ({ cartItems, total }) => (
         <span>Total:${total}</span>
         <StripeCheckOutButton price={total} />
       </div>
-      <div>
-        <p>Test credit cards: 4242 4242 4242 4242</p>
-        <p>This could be any month & year but the future : 4/22</p>
-        <p>CVC : any 3 degit number : 123</p>
+      <div className="credit-card">
+        <p>
+          Test credit card: <span>4242 4242 4242 4242</span>
+        </p>
+        <p>
+          Any month & year but in the future : <span> 4/22</span>
+        </p>
+        <p>
+          Any 3 degit number : <span>123</span>
+        </p>
       </div>
     </div>
   </div>
