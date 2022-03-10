@@ -1,0 +1,12 @@
+.logo {
+  max-width: 60px;
+  @media screen and (max-width: 800px) {
+    max-width: 50px;
+  }
+  @media screen and (max-width: 500px) {
+    max-width: 40px;
+  }
+}
+.active {
+  color: #ff8100 !important;
+}

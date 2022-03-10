@@ -1,0 +1,17 @@
+.sign-in {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  @media screen and (max-width: 800px) {
+    width: auto;
+  }
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  :first-child {
+    @media screen and (max-width: 800px) {
+      margin-right: 10px;
+    }
+  }
+}
