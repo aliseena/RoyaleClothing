@@ -49,6 +49,11 @@ export const CustomButtonContainer = styled.button`
   transition: all 0.2s ease-in-out;
   display: flex;
   justify-content: center;
+  @media screen and (max-width: 800px) {
+    :nth-child(2) {
+      padding: 0 5px 0 5px;
+    }
+  }
 
   &:hover {
     animation-direction: alternate;
