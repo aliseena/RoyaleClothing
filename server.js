@@ -37,7 +37,7 @@ app.post('/payment', async (req, res) => {
     currency: 'usd',
   };
   try {
-    const charge = await stripe.charges.create(body);
+    await stripe.charges.create(body);
     status = 'success';
   } catch (error) {
     console.log(error);

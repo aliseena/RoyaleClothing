@@ -9,7 +9,7 @@ const MySwal = withReactContent(Swal);
 const StripeCheckOutButton = ({ price }) => {
   const priceForStipe = price * 100;
   const publishableKey =
-    'pk_test_51KAs34JBPfp3exDPo5W86EzzbrJZ85uU129yCjmMRMXLogyoBDJlvcCubFrE8rTacTfnbmXhn6cdAf2bg0jmEWro00aIJZN3m6';
+    'pk_test_51KAs34JBPfp3exDP5KZ00E3s265wlWQ2O3pKoxEWxuOhzpsfVTqZ3qPMgtLweUqwbmabFS1xrTboUY6MxEAMsBOG00pmyBOyR8';
 
   const handleSuccessfulPayment = () => {
     MySwal.fire({
@@ -54,7 +54,7 @@ const StripeCheckOutButton = ({ price }) => {
       image=""
       description={`Your total is $${price}`}
       amount={priceForStipe}
-      panleLable=" Pay Now"
+      panleLable="Pay Now"
       token={onToken}
       stripeKey={publishableKey}
     />
