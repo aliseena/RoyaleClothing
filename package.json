@@ -24,7 +24,7 @@
     "sweetalert2-react-content": "^4.2.0"
   },
   "devDependencies": {
-    "concurrently": "^4.0.1",
-    "nodemon": "^1.19.1"
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15"
   }
 }
