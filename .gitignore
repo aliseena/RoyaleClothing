@@ -19,6 +19,7 @@
 .env.production.local
 # this will prevent sending the secret key to production version
 .env
+package-lock.json
 
 npm-debug.log*
 yarn-debug.log*
